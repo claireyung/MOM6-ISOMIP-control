@@ -1,0 +1,33 @@
+format: yamanifest
+version: 1.0
+---
+work/INPUT/diag_rho2.nc:
+  fullpath: /home/156/cy8964/ISOMIP/diag_rho2.nc
+  hashes:
+    binhash: 60f8f92e955c0a176f6786c4bbd68bbd
+    md5: 2e28890e50220397a167a2b3c4a30271
+work/INPUT/ocean_daily_z.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ocean_daily_z.nc
+  hashes:
+    binhash: dc83566e2bbc0baa2a27ddba209dd42e
+    md5: 437e4b815d3d28aab7e3e589e347e628
+work/INPUT/ocean_hgrid_isomip.nc:
+  fullpath: /home/156/cy8964/ISOMIP/ocean_hgrid_isomip.nc
+  hashes:
+    binhash: 5d414bd17329c620ae70ac20d91e04d8
+    md5: 81647f9deaf6f17fffac7c272220bc01
+work/INPUT/vert_isomip.nc:
+  fullpath: /home/156/cy8964/ISOMIP/vert_isomip.nc
+  hashes:
+    binhash: 27948c0bb9875b2454d970dc9b7c1876
+    md5: 62121532af6d64c817cc0703293828c0
+work/INPUT/vert_isomip_30m.nc:
+  fullpath: /home/156/cy8964/ISOMIP/vert_isomip_30m.nc
+  hashes:
+    binhash: 7fc5b9e6e3166a92dfcf7303fc4582a1
+    md5: 62121532af6d64c817cc0703293828c0
+work/INPUT/vert_isomip_orig.nc:
+  fullpath: /home/156/cy8964/ISOMIP/vert_isomip_orig.nc
+  hashes:
+    binhash: 35643efe7294dadd1e75a7fd24d2ad4f
+    md5: 7ab0f8b4d8048408716a61eda9803de4
