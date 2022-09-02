@@ -11,7 +11,7 @@ jobfs: 10GB
 
 model: mom6
 input:
-    - /home/156/cy8964/MOM6/ISOMIP/
+    - /home/156/cy8964/ISOMIP/
 exe: /home/156/cy8964/MOM6/build/MOM6
 
 collate: false
