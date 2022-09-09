@@ -195,9 +195,9 @@ ICE_THICKNESS_VARNAME = "thick" ! default = "h_shelf"
 ICE_AREA_VARNAME = "area"       ! default = "area_shelf_h"
                                 ! The name of the area variable in ICE_THICKNESS_FILE.
 SHELF_MIN_DRAFT = 200
-SHELF_MAX_DRAFT = 700
+SHELF_MAX_DRAFT = 800
 FLAT_SHELF_WIDTH = 6 
-SHELF_SLOPE_SCALE = 0.3 
+SHELF_SLOPE_SCALE = 0.25 
 SHELF_EDGE_POS_0 = -70
 
 ! === module MOM_state_initialization ===
