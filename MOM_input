@@ -197,9 +197,9 @@ ICE_AREA_VARNAME = "area"       ! default = "area_shelf_h"
 METHOD_ISOMIP = 1
 SHELF_MIN_DRAFT = 233
 SHELF_MAX_DRAFT = 815
-FLAT_SHELF_WIDTH = 6
+FLAT_SHELF_WIDTH = 3
 SHELF_SLOPE_SCALE = 4
-SHELF_EDGE_POS_0 = -70
+SHELF_EDGE_POS_0 = -73
 
 ! === module MOM_state_initialization ===
 THICKNESS_CONFIG = "ISOMIP"     ! default = "uniform"
