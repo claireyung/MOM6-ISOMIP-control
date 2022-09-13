@@ -154,7 +154,7 @@ REMAPPING_SCHEME = "PPM_H4"
 ! === module ISOMIP_initialize_topography ===
 
 ! === module MOM_ice_shelf ===
-SHELF_THERMO = True
+SHELF_THERMO = False
 
 IGNORE_FLUXES_OVER_LAND = True
 
