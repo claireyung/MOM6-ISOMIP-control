@@ -1,6 +1,11 @@
 format: yamanifest
 version: 1.0
 ---
+work/INPUT/MOM_Shelf_IC_Mathiot.nc:
+  fullpath: /home/156/cy8964/ISOMIP/MOM_Shelf_IC_Mathiot.nc
+  hashes:
+    binhash: 5073a2743a2f0c32c44237e7fccfb06b
+    md5: d42d13dfd93c4cdf3543260b8b11d82c
 work/INPUT/diag_rho2.nc:
   fullpath: /home/156/cy8964/ISOMIP/diag_rho2.nc
   hashes:
