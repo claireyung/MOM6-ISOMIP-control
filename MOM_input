@@ -194,10 +194,11 @@ ICE_THICKNESS_VARNAME = "thick" ! default = "h_shelf"
                                 ! The name of the thickness variable in ICE_THICKNESS_FILE.
 ICE_AREA_VARNAME = "area"       ! default = "area_shelf_h"
                                 ! The name of the area variable in ICE_THICKNESS_FILE.
-SHELF_MIN_DRAFT = 200
-SHELF_MAX_DRAFT = 800
-FLAT_SHELF_WIDTH = 6 
-SHELF_SLOPE_SCALE = 0.25 
+METHOD_ISOMIP = 1
+SHELF_MIN_DRAFT = 233
+SHELF_MAX_DRAFT = 815
+FLAT_SHELF_WIDTH = 6
+SHELF_SLOPE_SCALE = 4
 SHELF_EDGE_POS_0 = -70
 
 ! === module MOM_state_initialization ===
@@ -207,6 +208,17 @@ TS_CONFIG = "fit"               !
 T_REF = -1.9                    !   [degC]
 FIT_SALINITY = True             !   [Boolean] default = False
 TRIM_IC_FOR_P_SURF = False       !   [Boolean] default = False
+                                ! If true, cuts way the top of the column for initial conditions at the depth
+                                ! where the hydrostatic pressure matches the imposed surface pressure which is
+                                ! read from file.
+SURFACE_PRESSURE_FILE = "ocean_daily_z.nc" !
+                                ! The initial condition file for the surface pressure exerted by ice.
+SURFACE_PRESSURE_VAR = "h_shelf"  !   [Pa] default = ""
+                                ! The initial condition variable for the surface pressure exerted by ice.
+SURFACE_PRESSURE_SCALE = 8820.0 !   [file dependent] default = 1.0
+!SURFACE_PRESSURE_SCALE = 10280.0 !   [file dependent] default = 1.0
+                                ! A scaling factor to convert SURFACE_PRESSURE_VAR from file
+                                ! SURFACE_PRESSURE_FILE into a surface pressure.
 
 
 
