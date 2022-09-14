@@ -2,17 +2,17 @@ format: yamanifest
 version: 1.0
 ---
 work/INPUT/MOM.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/zco_Mathiot/restart019/MOM.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/zco_Mathiot/restart020/MOM.res.nc
   hashes:
-    binhash: 63783d5657c9b5238e2dd65ff038c844
-    md5: 40702d9ad70ee7166801f96ab2626cf3
+    binhash: 753007430aad19c11bc2cc6116941246
+    md5: 5d8a87ab631246c458e34065972a4255
 work/INPUT/Shelf.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/zco_Mathiot/restart019/Shelf.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/zco_Mathiot/restart020/Shelf.res.nc
   hashes:
-    binhash: 9b2649adc28f739b66a98e2ea0b9ee90
-    md5: 0b5c2eb2cfda864a93b00b65ca0a4346
+    binhash: 68f746d92c0eb66bc1abc0b8e73d3d90
+    md5: c584f8104f0845d28c5b1921a72e32d8
 work/INPUT/ocean_solo.res:
-  fullpath: /scratch/x77/cy8964/mom6/archive/zco_Mathiot/restart019/ocean_solo.res
+  fullpath: /scratch/x77/cy8964/mom6/archive/zco_Mathiot/restart020/ocean_solo.res
   hashes:
-    binhash: fd0bfb96607af0266f1f906a6d78c937
-    md5: 8d36a58161f66ccf45e840ea4e6004dd
+    binhash: 011d6591dc4751d7da0851711d9428b4
+    md5: 93571a7b16a79d45d7a27386bdee2d15
