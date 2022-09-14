@@ -154,7 +154,7 @@ REMAPPING_SCHEME = "PPM_H4"
 ! === module ISOMIP_initialize_topography ===
 
 ! === module MOM_ice_shelf ===
-SHELF_THERMO = True
+SHELF_THERMO = False
 
 IGNORE_FLUXES_OVER_LAND = True
 
@@ -381,9 +381,9 @@ SIMPLE_TKE_TO_KD = True
 HENYEY_IGW_BACKGROUND = True
 !N2_FLOOR_IOMEGA2 = 0.0
 !output345 KD = 1.5E-05
-KD = 1.5E-05
-KD_MIN = 2.0E-06
-KD_MAX = 0.1
+KD = 0
+KD_MIN = 0
+KD_MAX = 0
 
 ! === module MOM_bkgnd_mixing ===
 ! Adding static vertical background mixing coefficients
