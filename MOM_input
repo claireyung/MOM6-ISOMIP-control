@@ -204,8 +204,12 @@ SHELF_EDGE_POS_0 = -70
 ! === module MOM_state_initialization ===
 THICKNESS_CONFIG = "ISOMIP"     ! default = "uniform"
 MIN_THICKNESS = 1.0E-12         !   [m] default = 0.001
-TS_CONFIG = "fit"               !
-T_REF = -1.9                    !   [degC]
+TS_CONFIG = "linear"               !"fit"
+!T_REF = -1.9                    !   [degC]
+T_TOP = -0.5
+T_RANGE = 1.5
+S_TOP = 34.4
+S_RANGE = 0
 FIT_SALINITY = True             !   [Boolean] default = False
 TRIM_IC_FOR_P_SURF = False       !   [Boolean] default = False
                                 ! If true, cuts way the top of the column for initial conditions at the depth
