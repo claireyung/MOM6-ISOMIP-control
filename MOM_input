@@ -272,7 +272,7 @@ HBBL = 10.0
 DRAG_BG_VEL = 0.1
 BBL_USE_EOS = True
 BBL_THICK_MIN = 0.1
-KV = 1.0E-04
+KV = 0 !1.0E-04
 KV_BBL_MIN = 0.0
 KV_TBL_MIN = 0.0
 
@@ -387,7 +387,7 @@ HENYEY_IGW_BACKGROUND = True
 !output345 KD = 1.5E-05
 KD = 0
 KD_MIN = 0
-KD_MAX = 0
+KD_MAX = 1.0E-6
 
 ! === module MOM_bkgnd_mixing ===
 ! Adding static vertical background mixing coefficients
