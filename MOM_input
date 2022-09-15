@@ -255,7 +255,7 @@ TEMP_SALT_INIT_VERTICAL_REMAP_ONLY = True
                                 ! The minimum bottom boundary layer thickness that can be used with
                                 ! BOTTOMDRAGLAW. This might be Kv/(cdrag*drag_bg_vel) to give Kv as the minimum
                                 ! near-bottom viscosity.
-!KV = 1.0E-04                    !   [m2 s-1]
+KV = 0 ! 1.0E-04                    !   [m2 s-1]
                                 ! The background kinematic viscosity in the interior. The molecular value, ~1e-6
                                 ! m2 s-1, may be used.
 !KV_TBL_MIN = 0.01               !   [m2 s-1] default = 1.0E-04
@@ -383,7 +383,7 @@ HENYEY_IGW_BACKGROUND = True
 !output345 KD = 1.5E-05
 KD = 0
 KD_MIN = 0
-KD_MAX = 0
+KD_MAX = 1.0E-06
 
 ! === module MOM_bkgnd_mixing ===
 ! Adding static vertical background mixing coefficients
