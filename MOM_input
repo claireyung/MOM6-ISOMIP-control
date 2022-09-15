@@ -373,17 +373,18 @@ TOLERANCE_ENT = 1.0E-08         !   [m] default = 1.0E-13
 ! === module MOM_set_diffusivity ===
 !output345 BBL_EFFIC = 0.0                 !   [nondim] default = 0.2
                                 ! The efficiency with which the energy extracted by bottom drag drives BBL
-                                ! diffusion.  This is only used if BOTTOMDRAGLAW is true.
+                                ! diffusion.  This is only used if BOTTOMDRAGLAW is 
+BBL_EFFIC = 0.0
 !!! mom6-panan
-BBL_MIXING_AS_MAX = False
-USE_LOTW_BBL_DIFFUSIVITY = True
-SIMPLE_TKE_TO_KD = True
-HENYEY_IGW_BACKGROUND = True
+!BBL_MIXING_AS_MAX = False
+!USE_LOTW_BBL_DIFFUSIVITY = True
+!SIMPLE_TKE_TO_KD = True
+!HENYEY_IGW_BACKGROUND = True
 !N2_FLOOR_IOMEGA2 = 0.0
 !output345 KD = 1.5E-05
-KD = 0
-KD_MIN = 0
-KD_MAX = 1.0E-06
+!KD = 0
+!KD_MIN = 0
+!KD_MAX = 1.0E-06
 
 ! === module MOM_bkgnd_mixing ===
 ! Adding static vertical background mixing coefficients
