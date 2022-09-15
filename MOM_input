@@ -255,7 +255,7 @@ TEMP_SALT_INIT_VERTICAL_REMAP_ONLY = True
                                 ! The minimum bottom boundary layer thickness that can be used with
                                 ! BOTTOMDRAGLAW. This might be Kv/(cdrag*drag_bg_vel) to give Kv as the minimum
                                 ! near-bottom viscosity.
-KV = 0 ! 1.0E-04                    !   [m2 s-1]
+!KV = 1.0E-04                    !   [m2 s-1]
                                 ! The background kinematic viscosity in the interior. The molecular value, ~1e-6
                                 ! m2 s-1, may be used.
 !KV_TBL_MIN = 0.01               !   [m2 s-1] default = 1.0E-04
@@ -268,7 +268,7 @@ HBBL = 10.0
 DRAG_BG_VEL = 0.1
 BBL_USE_EOS = True
 BBL_THICK_MIN = 0.1
-KV = 1.0E-04
+KV = 0!  1.0E-04
 KV_BBL_MIN = 0.0
 KV_TBL_MIN = 0.0
 
