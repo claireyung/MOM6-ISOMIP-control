@@ -6,7 +6,7 @@
 #"trac_%4yr_%3dy",     5,"days",1,"days","Time",365,"days"
 "mom_%4yr_%3dy",      2,"hours",1,"days","Time",365,"days"
 "bt_mom_%4yr_%3dy",   2,"hours",1,"days","Time",10,"days"
-#"visc_%4yr_%3dy",     5,"days",1,"days","Time",10,"days"
+"visc_%4yr_%3dy",     5,"days",1,"days","Time",10,"days"
 #"energy_%4yr_%3dy",   5,"days",1,"days","Time",10,"days"
 #"ML_TKE_%4yr_%3dy",   5,"days",1,"days","Time",10,"days"
 "forcing_%4yr_%3dy",  2,"hours",1,"days","Time",10,"days"
@@ -77,6 +77,8 @@
 "ocean_model",   "tos",          "tos",              "ocean_daily_z",         "all", "mean", "none",2
 # Sea Surface Salinity
 "ocean_model",   "sos",          "sos",              "ocean_daily_z",         "all", "mean", "none",2
+# eddy diffusivity
+"ocean_model_z","KHTH_t","KHTH_t","ocean_daily_z","all",.true.,"none",2
 
 
 "ocean_model","dv_dt_visc","dv_dt_visc","mom_%4yr_%3dy","all",.true.,"none",2
@@ -242,7 +244,7 @@
 #"ocean_model","Kd_effective","Kd_effective","visc_%4yr_%3dy","all",.true.,"none",2
 #"ocean_model","Ahh","Ahh","visc_%4yr_%3dy","all",.true.,"none",2
 #"ocean_model","Ahq","Ahq","visc_%4yr_%3dy","all",.true.,"none",2
-#"ocean_model","Khh","Khh","visc_%4yr_%3dy","all",.true.,"none",2
+"ocean_model","Khh","Khh","visc_%4yr_%3dy","all",.true.,"none",2
 #"ocean_model","Khq","Khq","visc_%4yr_%3dy","all",.true.,"none",2
 #"ocean_model","bbl_thick_u","bbl_thick_u","visc_%4yr_%3dy","all",.true.,"none",2
 #"ocean_model","kv_bbl_u","kv_bbl_u","visc_%4yr_%3dy","all",.true.,"none",2
