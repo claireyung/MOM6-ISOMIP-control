@@ -2,7 +2,7 @@ format: yamanifest
 version: 1.0
 ---
 work/MOM6:
-  fullpath: /home/156/cy8964/MOM6/build/MOM6
+  fullpath: /home/552/pc5520/MOM6_2/build/MOM6
   hashes:
-    binhash: 62be7036daad1864c4aae7debd423bd7
-    md5: ad436074dd9c981c3c9458dd8ae45290
+    binhash: 3de1870920c24280597b04cd82210338
+    md5: bdcc7cb40e6527bb5ec947bdd321ed49
