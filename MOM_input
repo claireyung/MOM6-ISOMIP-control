@@ -198,7 +198,7 @@ USTAR_SHELF_BG = 0.001          !   [m s-1] default = 0.0
 CDRAG_SHELF = 0.0025            !   [nondim] default = 0.003
                                 ! CDRAG is the drag coefficient relating the magnitude of the velocity field to
                                 ! the surface stress.
-ICE_PROFILE_CONFIG = "CHANNEL"     !
+ICE_PROFILE_CONFIG = "FILE"     !
                                 ! This specifies how the initial ice profile is specified. Valid values are:
                                 ! CHANNEL, FILE, and USER.
 ICE_THICKNESS_FILE = "Ocean1_3D.nc" ! default = "ice_shelf_h.nc"
@@ -263,7 +263,7 @@ T_REF = -1.9                    !   [degC]
 FIT_SALINITY = True             !   [Boolean] default = False
                                 ! If true, accept the prescribed temperature and fit the salinity; otherwise
                                 ! take salinity and fit temperature.
-TRIM_IC_FOR_P_SURF = False       !   [Boolean] default = False
+TRIM_IC_FOR_P_SURF = True       !   [Boolean] default = False
                                 ! If true, cuts way the top of the column for initial conditions at the depth
                                 ! where the hydrostatic pressure matches the imposed surface pressure which is
                                 ! read from file.
