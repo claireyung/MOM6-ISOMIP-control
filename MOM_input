@@ -134,7 +134,7 @@ USE_REGRIDDING = True
 
 COORD_CONFIG = "linear" !"ALE"
 
-REGRIDDING_COORDINATE_MODE = "RHO"
+REGRIDDING_COORDINATE_MODE = "HYCOM1"
 LIGHTEST_DENSITY = 1027.1524    !   [kg m-3] default = 1027.0
                                 ! The reference potential density used for the surface interface.
 DENSITY_RANGE = 0.7438856       !   [kg m-3] default = 2.0
