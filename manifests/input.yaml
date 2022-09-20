@@ -6,11 +6,21 @@ work/INPUT/MOM_Shelf_IC_Mathiot.nc:
   hashes:
     binhash: 5073a2743a2f0c32c44237e7fccfb06b
     md5: d42d13dfd93c4cdf3543260b8b11d82c
+work/INPUT/Ocean1_3D.nc:
+  fullpath: /home/156/cy8964/ISOMIP/Ocean1_3D.nc
+  hashes:
+    binhash: 424e447b4410159480867059e4d7dcd5
+    md5: 41ff7c7ad45502f2266cc1b21c0fde8c
 work/INPUT/diag_rho2.nc:
   fullpath: /home/156/cy8964/ISOMIP/diag_rho2.nc
   hashes:
     binhash: 60f8f92e955c0a176f6786c4bbd68bbd
     md5: 2e28890e50220397a167a2b3c4a30271
+work/INPUT/nonlin_ISOMIP_initTS.nc:
+  fullpath: /home/156/cy8964/ISOMIP/nonlin_ISOMIP_initTS.nc
+  hashes:
+    binhash: 09e3c572db808d1ccabdac82e9c2718a
+    md5: 033c1d52796a7a5b87d2f63a8b7c9f30
 work/INPUT/ocean_daily_z.nc:
   fullpath: /home/156/cy8964/ISOMIP/ocean_daily_z.nc
   hashes:
