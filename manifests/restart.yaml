@@ -2,17 +2,17 @@ format: yamanifest
 version: 1.0
 ---
 work/INPUT/MOM.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/rho/restart001/MOM.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/rho/restart002/MOM.res.nc
   hashes:
-    binhash: 3aa65467e027713da4fbee9e58a2a534
-    md5: 331177063a0de6627317ddf88556acdd
+    binhash: a4ae597190c8546064be7bd6dc23592a
+    md5: 854544ae7b1568e8af571b2680138c7c
 work/INPUT/Shelf.res.nc:
-  fullpath: /scratch/x77/cy8964/mom6/archive/rho/restart001/Shelf.res.nc
+  fullpath: /scratch/x77/cy8964/mom6/archive/rho/restart002/Shelf.res.nc
   hashes:
-    binhash: 948115e04b016664d0d3e2963fad1461
-    md5: 415bf829ac86ee67b89280e3a41d10c2
+    binhash: 2a1c4f99b7c953c6c2dd687c77059486
+    md5: fc414ea5b062ba5de5b3fc12b6770c87
 work/INPUT/ocean_solo.res:
-  fullpath: /scratch/x77/cy8964/mom6/archive/rho/restart001/ocean_solo.res
+  fullpath: /scratch/x77/cy8964/mom6/archive/rho/restart002/ocean_solo.res
   hashes:
-    binhash: 9319ac3cc3c2ba2af0346d15f8ef6062
-    md5: 4214ece430d7356da6c7eb88d3b73fec
+    binhash: 6b267a13e540449db267a061f5eefcdc
+    md5: cf3b11b50d8ee51bc1be8073692e6953
