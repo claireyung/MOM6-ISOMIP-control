@@ -2,7 +2,7 @@
 project: x77
 queue: normal
 walltime: 00:15:00
-jobname: mom6_isomip_Mathiot
+jobname: mom6_isomip_sigmazstar
 ncpus: 48
 jobfs: 10GB
 
