@@ -134,7 +134,7 @@ USE_REGRIDDING = True
 
 COORD_CONFIG = "ALE"
 
-REGRIDDING_COORDINATE_MODE = "ZSTAR"
+REGRIDDING_COORDINATE_MODE = "SIGMA_SHELF_ZSTAR"
 
 ! use high-order scheme at boundary cells for remapping,
 ! instead of just piecewise-constant
