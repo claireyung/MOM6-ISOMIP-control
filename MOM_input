@@ -166,7 +166,7 @@ LIGHTEST_DENSITY = 1027.1524    !   [kg m-3] default = 1027.0
                                 ! The reference potential density used for the surface interface.
 DENSITY_RANGE = 0.7438856       !   [kg m-3] default = 2.0
                                 ! The range of reference potential densities across all interfaces.
-REGRIDDING_COORDINATE_MODE = "RHO" ! default = "LAYER"
+REGRIDDING_COORDINATE_MODE = "SIGMA_SHELF_ZSTAR"  !"RHO" ! default = "LAYER"
                                 ! Coordinate mode for vertical regridding. Choose among the following
                                 ! possibilities:  LAYER - Isopycnal or stacked shallow water layers
                                 !  ZSTAR, Z* - stretched geopotential z*
