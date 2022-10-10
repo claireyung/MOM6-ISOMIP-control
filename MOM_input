@@ -278,7 +278,7 @@ KV_TBL_MIN = 0.0
 
 
 ! === module MOM_thickness_diffuse ===
-KHTH_MAX_CFL = 0.1
+KHTH_MAX_CFL = 1.0
 
 ! === module MOM_dynamics_split_RK2 ===
 BE = 0.7                        !   [nondim] default = 0.6
