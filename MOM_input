@@ -101,7 +101,7 @@ MAXIMUM_DEPTH = 930.0           !   [m]
 
 ! === module MOM_verticalGrid ===
 
-NK = 30                         !   [nondim]
+NK = 11 !30                         !   [nondim]
 
 ! === module ISOMIP_initialize_topography ===
 F_0 = -1.408706225059977E-04    !   [s-1] default = 0.0
