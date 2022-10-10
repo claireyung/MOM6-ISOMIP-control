@@ -232,10 +232,13 @@ REGRID_USE_OLD_DIRECTION = False ! [Boolean] default = True
 ! === module MOM_ice_shelf ===
 SHELF_THERMO = True             !   [Boolean] default = False
                                 ! If true, use a thermodynamically interactive ice shelf.
-SHELF_3EQ_GAMMA = True          !   [Boolean] default = False
+SHELF_3EQ_GAMMA = False          !   [Boolean] default = False
                                 ! If true, user specifies a constant nondimensional heat-transfer coefficient
                                 ! (GAMMA_T_3EQ), from which the default salt-transfer coefficient is set as
                                 ! GAMMA_T_3EQ/35. This is used with SHELF_THREE_EQN.
+SHELF_2EQ_GAMMA_T = 0.0001     !   [m s-1]
+                                ! If SHELF_THREE_EQN is false, this the fixed turbulent exchange velocity at the
+                                ! ice-ocean interface.
 SHELF_S_ROOT = True             !   [Boolean] default = False
                                 ! If SHELF_S_ROOT = True, salinity at the ice/ocean interface (Sbdry) is
                                 ! computed from a quadratic equation. Otherwise, the previous interactive method
@@ -482,6 +485,12 @@ DATE_STAMPED_STDOUT = False     !   [Boolean] default = True
 ENERGYSAVEDAYS = 0.125          !   [days] default = 1.0
                                 ! The interval in units of TIMEUNIT between saves of the energies of the run and
                                 ! other globally summed diagnostics.
+NUM_DIAG_COORDS = 2
+DIAG_COORDS = "z Z ZSTAR", "rho2 RHO2 RHO"
+DIAG_COORD_DEF_Z = "FILE:vert_isomip.nc,interfaces=st_edges_ocean"
+! drho (arg 5) is a bit magic and has a big impact on
+! the tail of the coord...
+DIAG_COORD_DEF_RHO2 = "FILE:diag_rho2.nc,interfaces=rho2"
 
 ! === module MOM_surface_forcing ===
 VARIABLE_WINDS = False          !   [Boolean] default = True
