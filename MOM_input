@@ -266,7 +266,7 @@ TEMP_SALT_INIT_VERTICAL_REMAP_ONLY = True
                                 ! The minimum viscosities in the top boundary layer.
 
 !!!! mom panan
-CHANNEL_DRAG = True
+CHANNEL_DRAG = False
 PRANDTL_TURB = 1.25
 HBBL = 10.0
 DRAG_BG_VEL = 0.1
