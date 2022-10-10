@@ -142,7 +142,7 @@ REGRIDDING_COORDINATE_MODE = "ZSTAR"
 
 ! read target densities from file, set minimum interface depth
 ! from profile: minimum dz=2, 4000m total thickness, profile is dz^4.5
-ALE_COORDINATE_CONFIG = "FILE:vert_isomip.nc,interfaces=st_edges_ocean"
+ALE_COORDINATE_CONFIG = "FILE:vert_isomip_80m.nc,interfaces=st_edges_ocean"
 
 REMAPPING_SCHEME = "PPM_H4"
 !!!! from mom6-panan !!!!
