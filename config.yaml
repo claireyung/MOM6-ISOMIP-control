@@ -1,8 +1,8 @@
 # change to your project with compute time available
 project: x77
 queue: normal
-walltime: 00:15:00
-jobname: mom6_isomip_Mathiot
+walltime: 00:20:00
+jobname: mom6_isomip_Mathiot_rho
 ncpus: 48
 jobfs: 10GB
 
