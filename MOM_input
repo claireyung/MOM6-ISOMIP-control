@@ -101,7 +101,7 @@ MAXIMUM_DEPTH = 930.0           !   [m]
 
 ! === module MOM_verticalGrid ===
 
-NK = 30                         !   [nondim]
+NK = 11                         !   [nondim]
 
 ! === module ISOMIP_initialize_topography ===
 F_0 = -1.408706225059977E-04    !   [s-1] default = 0.0
@@ -142,7 +142,7 @@ REGRIDDING_COORDINATE_MODE = "SIGMA_SHELF_ZSTAR"
 
 ! read target densities from file, set minimum interface depth
 ! from profile: minimum dz=2, 4000m total thickness, profile is dz^4.5
-ALE_COORDINATE_CONFIG = "FILE:vert_isomip.nc,interfaces=st_edges_ocean"
+ALE_COORDINATE_CONFIG = "FILE:vert_isomip_80m.nc,interfaces=st_edges_ocean"
 
 REMAPPING_SCHEME = "PPM_H4"
 !!!! from mom6-panan !!!!
