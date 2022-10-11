@@ -44,8 +44,8 @@ work/INPUT/vert_isomip_30m.nc:
 work/INPUT/vert_isomip_80m.nc:
   fullpath: /home/156/cy8964/ISOMIP/vert_isomip_80m.nc
   hashes:
-    binhash: fe29df9f2ad96df86b0b3b6c04384466
-    md5: 01ae558ecdeb0b7a2b50522c3f0ea55c
+    binhash: 0d0063c0fed754182ff68f2ecae5a9de
+    md5: 9474cc3bb6ee6f6c3745407fb961705d
 work/INPUT/vert_isomip_orig.nc:
   fullpath: /home/156/cy8964/ISOMIP/vert_isomip_orig.nc
   hashes:
