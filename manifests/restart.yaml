@@ -1,3 +1,18 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_sigma_shelf_zstar_thicker/restart000/MOM.res.nc
+  hashes:
+    binhash: 57393de9bba976095d3dc52a41871c7f
+    md5: cd712c45003f1471c5db987abcf6cc5e
+work/INPUT/Shelf.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_sigma_shelf_zstar_thicker/restart000/Shelf.res.nc
+  hashes:
+    binhash: 4aa38dfbfe5a5ec3e55159cb7927edb0
+    md5: 352659ad127294433faf660da91e226d
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/ISOMIP_sigma_shelf_zstar_thicker/restart000/ocean_solo.res
+  hashes:
+    binhash: f0a4d1fec9d34c98bb1bdade588cef32
+    md5: e2a8f2981235b37d4e2963a1bdc86830
