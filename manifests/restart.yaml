@@ -1,3 +1,18 @@
 format: yamanifest
 version: 1.0
---- {}
+---
+work/INPUT/MOM.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/zco_Mathiot_thicker/restart000/MOM.res.nc
+  hashes:
+    binhash: f651900772c0b4777c86bfb19f6ae830
+    md5: cb1fe78a1f02c3a8887cf05c285d8e62
+work/INPUT/Shelf.res.nc:
+  fullpath: /scratch/x77/cy8964/mom6/archive/zco_Mathiot_thicker/restart000/Shelf.res.nc
+  hashes:
+    binhash: 17ccaf872f0e46994dd6b1efb7fad5db
+    md5: 352659ad127294433faf660da91e226d
+work/INPUT/ocean_solo.res:
+  fullpath: /scratch/x77/cy8964/mom6/archive/zco_Mathiot_thicker/restart000/ocean_solo.res
+  hashes:
+    binhash: 757d9b2e2d0b3b749b5911354dd3231d
+    md5: e2a8f2981235b37d4e2963a1bdc86830
