@@ -12,7 +12,7 @@ jobfs: 10GB
 model: mom6
 input:
     - /home/156/cy8964/ISOMIP/
-    - /g/data/x77/amh157/mom6/input/anu-tub
+#    - /g/data/x77/amh157/mom6/input/anu-tub/
 exe: /scratch/x77/cy8964/mom6/mom6-ninja-nci/ocean_only_symmetric/MOM6
 #/home/552/pc5520/MOM6_2/build/MOM6
 
