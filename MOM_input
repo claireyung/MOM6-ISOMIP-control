@@ -135,9 +135,9 @@ USE_REGRIDDING = True
 COORD_CONFIG = "linear" !"ALE"
 
 REGRIDDING_COORDINATE_MODE = "HYCOM1"
-!LIGHTEST_DENSITY = 1027.1524    !   [kg m-3] default = 1027.0
+LIGHTEST_DENSITY = 1027.5 ! 1027.1524    !   [kg m-3] default = 1027.0
                                 ! The reference potential density used for the surface interface.
-!DENSITY_RANGE = 0.7438856       !   [kg m-3] default = 2.0
+DENSITY_RANGE = 0.3 ! 0.7438856       !   [kg m-3] default = 2.0
                                 ! The range of reference potential densities across all interfaces.
 INTERPOLATION_SCHEME = "P1M_H4" ! default = "P1M_H2"
                                 ! This sets the interpolation scheme to use to determine the new grid. These
