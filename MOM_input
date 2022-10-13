@@ -133,7 +133,7 @@ TFREEZE_FORM = "MILLERO_78"     ! default = "LINEAR"
 USE_REGRIDDING = True
 
 COORD_CONFIG = "ALE"!"linear" !"ALE"
-ALE_COORDINATE_CONFIG = "HYBRID:hycom1_30_30m.nc,sigma0,FNC1:1.08,930,4.5,.01"
+ALE_COORDINATE_CONFIG = "HYBRID:hycom1_30_30m.nc,sigma0" !,FNC1:1.08,930,4.5,.01"
 REGRIDDING_COORDINATE_MODE = "HYCOM1"
 LIGHTEST_DENSITY = 1027.5 ! 1027.1524    !   [kg m-3] default = 1027.0
                                 ! The reference potential density used for the surface interface.
