@@ -229,7 +229,7 @@ SHELF_EDGE_POS_0 = -70
 
 ! === module MOM_state_initialization ===
 THICKNESS_CONFIG = "ISOMIP"     ! default = "uniform"
-MIN_THICKNESS = 1.0E-12         !   [m] default = 0.001
+!MIN_THICKNESS = 1.0E-12         !   [m] default = 0.001
 TS_CONFIG = "linear"               !"fit"
 !T_REF = -1.9                    !   [degC]
 T_TOP = -0.5
