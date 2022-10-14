@@ -166,7 +166,7 @@ BOUNDARY_EXTRAPOLATION = True   !   [Boolean] default = False
 ! from profile: minimum dz=2, 4000m total thickness, profile is dz^4.5
 !ALE_COORDINATE_CONFIG = "FILE:vert_isomip.nc,interfaces=st_edges_ocean"
 
-MIN_THICKNESS = 1.0E-12         !   [m] default = 0.001
+MIN_THICKNESS = 0.001 !1.0E-12         !   [m] default = 0.001
                                 ! When regridding, this is the minimum layer thickness allowed.
 
 
