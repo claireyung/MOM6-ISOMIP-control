@@ -95,7 +95,7 @@ LENLON = 15.0                  !   [k]
                                 !     cartesian - use a (flat) Cartesian grid.
                                 !     spherical - use a simple spherical grid.
                                 !     mercator - use a Mercator spherical grid.
-TOPO_CONFIG = "ISOMIP"          !
+TOPO_CONFIG = "flat"          !
 MINIMUM_DEPTH = 9.0             !   [m] default = 0.0
 MAXIMUM_DEPTH = 930.0           !   [m]
 
