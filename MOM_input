@@ -210,22 +210,22 @@ USTAR_SHELF_BG = 0.001          !   [m s-1] default = 0.0
 CDRAG_SHELF = 0.0025            !   [nondim] default = 0.003
                                 ! CDRAG is the drag coefficient relating the magnitude of the velocity field to
                                 ! the surface stress.
-!ICE_PROFILE_CONFIG = "FILE"     !
-ICE_PROFILE_CONFIG = "CHANNEL"     !
+ICE_PROFILE_CONFIG = "FILE"     !
+!ICE_PROFILE_CONFIG = "CHANNEL"     !
                                 ! This specifies how the initial ice profile is specified. Valid values are:
                                 ! CHANNEL, FILE, and USER.
-ICE_THICKNESS_FILE = "Ocean1_3D.nc" ! default = "ice_shelf_h.nc"
+ICE_THICKNESS_FILE = "MOM_Shelf_IC.nc" !"Ocean1_3D.nc" ! default = "ice_shelf_h.nc"
                                 ! The file from which the ice bathymetry and area are read.
-ICE_THICKNESS_VARNAME = "thick" ! default = "h_shelf"
+ICE_THICKNESS_VARNAME = "h_shelf" ! default = "h_shelf"
                                 ! The name of the thickness variable in ICE_THICKNESS_FILE.
-ICE_AREA_VARNAME = "area"       ! default = "area_shelf_h"
+ICE_AREA_VARNAME = "shelf_area"       ! default = "area_shelf_h"
                                 ! The name of the area variable in ICE_THICKNESS_FILE.
-METHOD_ISOMIP = 1
-SHELF_MIN_DRAFT = 233
-SHELF_MAX_DRAFT = 815
-FLAT_SHELF_WIDTH = 6
-SHELF_SLOPE_SCALE = 4
-SHELF_EDGE_POS_0 = -70
+!METHOD_ISOMIP = 1
+!SHELF_MIN_DRAFT = 233
+!SHELF_MAX_DRAFT = 815
+!FLAT_SHELF_WIDTH = 6
+!SHELF_SLOPE_SCALE = 4
+!SHELF_EDGE_POS_0 = -70
 
 ! === module MOM_state_initialization ===
 THICKNESS_CONFIG = "ISOMIP"     ! default = "uniform"
