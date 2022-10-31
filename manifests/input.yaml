@@ -34,8 +34,8 @@ work/INPUT/hycom1_75_800m.nc:
 work/INPUT/hycom1_75_800m_shrunken.nc:
   fullpath: /home/156/cy8964/ISOMIP/hycom1_75_800m_shrunken.nc
   hashes:
-    binhash: b77bec2f97cfe12736b8c44338c4fe28
-    md5: 00f8f9c33f0ea956977eba5622e8866c
+    binhash: a64f6f0ee9c47843894e5afd64f8574c
+    md5: c269b45bf1b95277bca22230460563c7
 work/INPUT/nonlin_ISOMIP_initTS.nc:
   fullpath: /home/156/cy8964/ISOMIP/nonlin_ISOMIP_initTS.nc
   hashes:
